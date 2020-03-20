@@ -1,4 +1,4 @@
-module github.com/bayardlouis470/grade-calculator
+module github.com/bayardlouis470/grade-calculators
 
 go 1.14
 
