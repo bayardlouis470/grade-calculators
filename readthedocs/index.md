@@ -39,6 +39,21 @@ Physics, 85, 4
 
 There's course name, grade and credit of each course in the input file. The overall GPA will be the output.
 
+## Usage
+
+Use the calculator in your app:
+```
+import "github.com/bayardlouis470/grade-calculators"
+
+
+let grade = gradecalculators.CalculateGrade("percentage", assessments)
+```
+
+Build the document:
+```
+cd readthedocs
+make html
+```
 ## Stories
 
 Many colleges and high schools provide students with similar calculators so they can calculate GPA, grade point average, etc. A weighted grade is calculated based on the weight of the grade received and the final grade. Such a calculator usually works with a specified class or course as an average of performance, taking into account a certain period of time. 
